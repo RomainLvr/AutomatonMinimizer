@@ -1,4 +1,4 @@
-package fr.romainlvr.automaton_minimizer.parser
+package fr.romainlvr.automaton_minimizer.parsers
 
 import java.io.File
 import java.io.FileNotFoundException
