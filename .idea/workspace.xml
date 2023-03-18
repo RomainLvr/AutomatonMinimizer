@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c077bc31-23f1-4d3d-be4c-c9655956dfd5" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/fr/romainlvr/automaton_minimizer/datas/State.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/fr/romainlvr/automaton_minimizer/datas/automatonDatas.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fr/romainlvr/automaton_minimizer/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fr/romainlvr/automaton_minimizer/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fr/romainlvr/automaton_minimizer/parser/ParseDot.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fr/romainlvr/automaton_minimizer/parsers/ParseDot.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
