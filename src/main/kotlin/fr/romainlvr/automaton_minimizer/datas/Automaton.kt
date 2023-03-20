@@ -2,10 +2,10 @@ package fr.romainlvr.automaton_minimizer.datas
 
 class Automaton() {
 
-    private lateinit var states: HashMap<String, State>
+    private var states: HashMap<String, State> = HashMap()
     private var alphabet = mutableSetOf<String>()
     private lateinit var initialState: State
-    private lateinit var finalStates: HashMap<String, State>
+    private var finalStates: HashMap<String, State> = HashMap()
 
     constructor(states: Collection<State>) : this() {
         states.forEach { state ->

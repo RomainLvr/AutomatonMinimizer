@@ -13,6 +13,13 @@ class State (){
         this.isFinal = isFinal
     }
 
+    constructor(name: String, isInitial: Boolean, isFinal: Boolean) : this() {
+        this.name = name
+        this.transitions = HashMap()
+        this.isInitial = isInitial
+        this.isFinal = isFinal
+    }
+
     fun getName(): String{
         return this.name
     }
@@ -23,6 +30,14 @@ class State (){
 
     fun getTransition(transition: String): State? {
         return this.transitions[transition]
+    }
+
+    fun addTransition(transition: String, state: State){
+        this.transitions[transition] = state
+    }
+
+    fun addTransitions(transitions: HashMap<String, State>){
+        this.transitions.putAll(transitions)
     }
 
     fun isInitial(): Boolean{
