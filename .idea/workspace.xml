@@ -9,6 +9,8 @@
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/fr/romainlvr/automaton_minimizer/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fr/romainlvr/automaton_minimizer/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/fr/romainlvr/automaton_minimizer/datas/Automaton.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fr/romainlvr/automaton_minimizer/datas/Automaton.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/fr/romainlvr/automaton_minimizer/datas/State.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fr/romainlvr/automaton_minimizer/datas/State.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fr/romainlvr/automaton_minimizer/parsers/ParseDot.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fr/romainlvr/automaton_minimizer/parsers/ParseDot.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/automaton.dot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/automaton.dot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +93,9 @@
       <workItem from="1679259602240" duration="18000" />
       <workItem from="1679264152963" duration="6870000" />
       <workItem from="1679299322878" duration="64000" />
+      <workItem from="1679315331250" duration="485000" />
+      <workItem from="1679315825779" duration="5907000" />
+      <workItem from="1679338678871" duration="9993000" />
     </task>
     <servers />
   </component>

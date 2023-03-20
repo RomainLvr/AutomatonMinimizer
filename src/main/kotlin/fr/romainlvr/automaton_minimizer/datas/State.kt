@@ -32,8 +32,9 @@ class State (){
         return this.transitions[transition]
     }
 
-    fun addTransition(transition: String, state: State){
+    fun addTransition(transition: String, state: State): Boolean{
         this.transitions[transition] = state
+        return this.transitions.contains(transition)
     }
 
     fun addTransitions(transitions: HashMap<String, State>){
