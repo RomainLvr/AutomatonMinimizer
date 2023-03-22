@@ -21,6 +21,8 @@ class MinimalAutomaton(automate: Automaton){
                 break
             statesGroups = newGroups
             printGroups()
+            if(isAlreadyMinimal())
+                throw Exception("This automaton is already minimal")
         }
     }
 
@@ -55,10 +57,27 @@ class MinimalAutomaton(automate: Automaton){
         return groupe
     }
 
+    private fun isGroupFinal(group: ArrayList<State>): Boolean{
+        var isFinal = false
+        group.forEach { state ->
+            if(state.isFinal())
+                isFinal = true
+        }
+        return isFinal
+    }
+
+    private fun isAlreadyMinimal(): Boolean{
+        this.statesGroups.forEach { group ->
+            if(isGroupFinal(group.value) && group.value.size > 1)
+                return false
+        }
+        return true
+    }
+
     private fun printGroups(){
         println()
         statesGroups.forEach { group ->
-            println(group.key + " -> " + group.value.map { it.getName() })
+            println(group.value.map { it.getName() })
         }
         println()
     }

@@ -1,0 +1,38 @@
+digraph Automate {
+    rankdir=LR;
+    node [shape=circle];
+    start [shape=none, label=""];
+    start -> A;
+    A [label="A"];
+    B [label="B"];
+    C [label="C", shape=doublecircle];
+    D [label="D", shape=doublecircle];
+    E [label="E", shape=doublecircle];
+    F [label="F"];
+    G [label="G"];
+    H [label="H", shape=doublecircle];
+    I [label="I"];
+    J [label="J"];
+    K [label="K"];
+    A -> B [label="a"];
+    A -> F [label="b"];
+    B -> C [label="a"];
+    B -> D [label="b"];
+    C -> E [label="a"];
+    C -> F [label="b"];
+    D -> E [label="a"];
+    D -> G [label="b"];
+    E -> H [label="a"];
+    E -> I [label="b"];
+    F -> G [label="a"];
+    F -> J [label="b"];
+    G -> H [label="a"];
+    G -> K [label="b"];
+    H -> H [label="a"];
+    H -> I [label="b"];
+    I -> J [label="a"];
+    I -> K [label="b"];
+    J -> J [label="a"];
+    J -> K [label="b"];
+    K -> K [label="a,b"];
+}

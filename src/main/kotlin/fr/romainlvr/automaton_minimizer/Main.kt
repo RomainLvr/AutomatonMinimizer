@@ -6,7 +6,7 @@ import fr.romainlvr.automaton_minimizer.parsers.ParseDot
 fun main(args: Array<String>) {
 
     val parser = ParseDot()
-    val automaton = parser.parseFile("automaton2.dot")
+    val automaton = parser.parseFile("big.dot")
     automaton.isComplete()
     automaton.printAutomaton()
     println(automaton.generateDotFile("test"))

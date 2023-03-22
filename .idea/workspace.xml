@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c077bc31-23f1-4d3d-be4c-c9655956dfd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/fr/romainlvr/automaton_minimizer/minimization/MinimalAutomaton.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/fr/romainlvr/automaton_minimizer/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fr/romainlvr/automaton_minimizer/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/fr/romainlvr/automaton_minimizer/minimization/MinimalAutomaton.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/fr/romainlvr/automaton_minimizer/minimization/MinimalAutomaton.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/test.dot" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/test.dot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +96,7 @@
       <workItem from="1679338678871" duration="11519000" />
       <workItem from="1679382364278" duration="16000" />
       <workItem from="1679478556702" duration="3082000" />
-      <workItem from="1679511290625" duration="7038000" />
+      <workItem from="1679511290625" duration="8655000" />
     </task>
     <servers />
   </component>
