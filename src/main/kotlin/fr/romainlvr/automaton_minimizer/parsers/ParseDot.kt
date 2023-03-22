@@ -32,9 +32,9 @@ class ParseDot{
     private fun readFile(){
         println("Parsing file...")
 
-        val patternInitialState = Pattern.compile("^\\s*start\\s*->\\s*\\d+;\$")
-        val patternState = Pattern.compile("^\\s*\\d+\\s+\\[label=\".*\"(,\\s+shape=([a-z]+))?\\];\$")
-        val patternTransition = Pattern.compile("^\\s*\\d+\\s+\\->\\s+\\d+\\s+\\[label=\".*\"?\\];\$")
+        val patternInitialState = Pattern.compile("^\\s*start\\s*->\\s*\\w+;\\s*$")
+        val patternState = Pattern.compile("^\\s*\\w+\\s+\\[label=\".*\"(,\\s+shape=([a-z]+))?\\];\\s*$")
+        val patternTransition = Pattern.compile("^\\s*\\w+\\s+->\\s+\\w+\\s+\\[label=\".*\"?\\];\\s*$")
 
         File(Resources.getResource(this.file.path).file).forEachLine { line ->
 
